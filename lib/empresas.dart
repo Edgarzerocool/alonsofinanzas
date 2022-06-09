@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'historicoEmpresa.dart';
 
 class empresas extends StatelessWidget {
   const empresas({key});
@@ -20,7 +21,10 @@ class empresas extends StatelessWidget {
             ),
             FlatButton(
               color: Colors.blue,
-              onPressed: null,
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const historicoEmpresa()),);
+              },
               child: const Text("Apple"),
             ),
             FlatButton(
