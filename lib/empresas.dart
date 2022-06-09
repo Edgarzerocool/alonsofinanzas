@@ -23,18 +23,24 @@ class empresas extends StatelessWidget {
               color: Colors.blue,
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const historicoEmpresa()),);
+                  MaterialPageRoute(builder: (context) => historicoEmpresa(nombre:"Apple",clave:"AAPL")),);
               },
               child: const Text("Apple"),
             ),
             FlatButton(
               color: Colors.blue,
-              onPressed: null,
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => historicoEmpresa(nombre:"Amazon",clave:"AMZN")),);
+              },
               child: const Text("Amazon"),
             ),
             FlatButton(
               color: Colors.blue,
-              onPressed: null,
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => historicoEmpresa(nombre:"Microsoft",clave:"MSFT")),);
+              },
               child: const Text("Microsoft"),
             ),
           ],

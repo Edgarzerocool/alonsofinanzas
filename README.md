@@ -18,4 +18,9 @@ samples, guidance on mobile development, and a full API reference.
 
 Esta aplicación se realizo con la version de flutter:  v1.12.13+hotfix.5
 
-Se utilizo la [api de yahoo Finances](https://www.yahoofinanceapi.com/) para consumir servicios y es gratis creando una cuenta 
+Se utilizo la [api de yahoo Finances](https://www.yahoofinanceapi.com/) para consumir servicios y es gratis creando una cuenta
+
+Para realizar el modelo de la respuesta del servicio se uso [javiercbk.github.io/json_to_dart/]( https://javiercbk.github.io/json_to_dart/) en el cual ingresas la respuesta y genera la clase
+
+Comando para generar apk:
+flutter build apk --debug
