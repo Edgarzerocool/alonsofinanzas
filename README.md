@@ -24,3 +24,6 @@ Para realizar el modelo de la respuesta del servicio se uso [javiercbk.github.io
 
 Comando para generar apk:
 flutter build apk --debug
+
+instalable de la app: 
+alonsofinanzas.apk https://drive.google.com/uc?id=1V9gCEUTUMMpckgtT7dTjRujvUUS8vJNM&export=download
